@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Wonderlust Travel- Destination Majorca</title>
 </head>
 <body>
@@ -95,12 +95,7 @@
                         <source media="(max-width: 404px)" srcset="images/miranda-blake-S.png">
                         <img src="images/miranda-blake-L.png" alt="Photo of Miranda Blake">
                     </picture>
-                    <!--Responsive Image for resolution switching
-                        images/miranda-blake-L.png" 
-                        images/miranda-blake-S.png 404w
-                        images/miranda-blake-M.png 920w
-                        images/miranda-blake-L.png 1280w
-                    -->
+
                     <div>
                         <cite>Miranda Blake</cite>
                         <dl>
@@ -117,12 +112,7 @@
                         <source media="(max-width: 404px)" srcset="images/max-winter-S.png">
                         <img src="images/max-winter-L.png" alt="Photo of Max Winter">
                     </picture>
-                    <!--Responsive Image for resolution switching
-                        images/max-winter-L.png
-                        images/max-winter-S.png 404w
-                        images/max-winter-M.png 920w
-                        images/max-winter-L.png 1280w
-                    -->
+
                     <div>
                         <cite>Max Winter</cite>
                         <dl>
@@ -139,12 +129,7 @@
                         <source media="(max-width: 404px)" srcset="images/ines-villegoes-S.png">
                         <img src="images/ines-villegoes-L.png" alt="Photo of Ines Villegoes">
                     </picture>
-                    <!--Responsive Image for resolution switching
-                        images/ines-villegoes-L.png
-                        images/ines-villegoes-S.png 404w
-                        images/ines-villegoes-M.png 920w
-                        images/ines-villegoes-L.png 1280w 
-                    -->
+
                     <div>
                         <cite>Inés Villegoes</cite>
                         <dl>
@@ -161,12 +146,7 @@
                         <source media="(max-width: 404px)" srcset="images/carmen-lorenzo-S.png">
                         <img src="images/carmen-lorenzo-L.png" alt="Photo of Carmen Lorenzo">
                     </picture>
-                    <!--Responsive Image for resolution switching
-                        images/carmen-lorenzo-L.png
-                        images/carmen-lorenzo-S.png 404w
-                        images/carmen-lorenzo-M.png 920w
-                        images/carmen-lorenzo-L.png 1280w
-                    -->
+
                     <div>
                         <cite>Carmen Lorenzo</cite>
                         <dl>
@@ -239,8 +219,8 @@
     </main>
     <footer>
         <section id="contact-us">
-            Contact Us <span id="required">(*required)</span>
-            
+            <h2>Contact Us <span id="required">(*required)</span></h2>
+            <form>
                 <div>
                     <label>First Name<span>*</span></label>
                     <input>
@@ -257,6 +237,7 @@
                     <label>Phone<span>*</span></label>
                     <input>
                 </div>
+
                 <fieldset id="preferred-contact">
                 <legend>Preferred Contact Method<span>*</span></legend>
                     <div> 
@@ -272,6 +253,7 @@
                         <label>Phone</label>
                     </div>
                 </fieldset>
+
                 <fieldset id="destination">
                     <legend>Destination<span>*</span></legend>
                     <select id="select-destination">
@@ -287,6 +269,7 @@
                         <option>Other</option>
                     </select>
                 </fieldset>
+
                 <fieldset id="travelTime">
                     <legend>Travel Time<span>*</span></legend>
                     <select id="select-travel-time">
@@ -298,11 +281,11 @@
                         <option>Flexible</option>
                     </select>
                 </fieldset>
-                <input>
-            
+                <input type="submit" value="Submit">
+            </form>
         </section>
         <section id="legal">
-            Legal
+            <h2>Legal</h2>
             <small>Copyright 2021 Wonderlust</small>
             <a href="#">Privacy Statement</a>
             <a href="#">Terms of Service</a>
